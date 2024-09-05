@@ -6,6 +6,28 @@ public class Perbandingan {
         int b = 20;
 
         // Sama dengan
-        boolean hasilSamaDengan =
+        boolean hasilSamadengan = (a == b);
+        System.out.println("a == b: " + hasilSamadengan);
+
+        // tidak dengan sama dengan
+        boolean hasilTidakSamaDengan = (a != b);
+        System.out.println("a != b: " + hasilTidakSamaDengan);
+
+        // lebih besar dari
+        boolean hasilLebihBesarDari = (a > b);
+        System.out.println("a > b: " + hasilLebihBesarDari);
+
+        // lebih kecil dari
+        boolean hasilLebihKecilDari = (a < b);
+        System.out.println("a < b: " + hasilLebihKecilDari);
+
+        // lebih besar atau sama dengan
+        boolean hasilLebihBesarSamaDengan = (a >= b);
+        System.out.println("a >= b: " + hasilLebihBesarSamaDengan);
+
+        // lebih kecil atau sama dengan
+        boolean hasilLebihKecilSamaDengan = (a <= b);
+        System.out.println("a < b: " + hasilLebihKecilSamaDengan);
+
     }
 }

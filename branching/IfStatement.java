@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class IfStatement {
     public static void main(String[] args) {
-        Scanner input = new Scanner( source System.in);
+        Scanner input = new Scanner( System.in);
 
-        System.out.println("Masukkan nomor hari (1 - 7) ; );
-        int nomorHari = input.nextInt[];
+        System.out.println("Masukkan nomor hari (1 - 7) ; ");
+        int nomorHari = input.nextInt();
 
         String namaHari = "";
 
@@ -27,7 +27,7 @@ public class IfStatement {
             namaHari = "Sabtu";
         } else {
             System.out.println("Masukkan nomor antara 1 - 7");
-            System.exit( status 0);
+            System.exit(0);
         }
 
         System.out.println("hari : " + namaHari);
